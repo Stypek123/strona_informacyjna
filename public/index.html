@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="icon" href="./img/icons/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/icons/favicon.ico" type="image/x-icon" />
+    <!-- bootsrtap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <!-- fontello -->
+    <link rel="stylesheet" href="./fonts/fontello-b1889455/css/fontello.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- h-ticker -->
+    <link rel="stylesheet" href="./stylesheets/h-ticker.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="./stylesheets/slider.css">
+
+    <title> Serwis Informacyjny </title>
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="navbar bg-info navbar-light navbar-expand-lg sticky">
+            <a href="localhost:3000/" class="navbar-brand">
+                <img src="./img/logo/newspaper.svg" class="ms-2 align-bottom img-fluid logo" alt="newspaper-logo">
+                <h1 class="d-inline-block ms-1 header"> NEWS </h1>
+            </a>
+            <button class="navbar-toggler me-2" data-bs-toggle="collapse" data-bs-target="#mainMenu" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="mainMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item ms-3 me-2">
+                        <a class="nav-link active" href="localhost:3000/"> Home </a>
+                    </li>
+                    <li class="nav-item ms-3 me-2 d-none dis-nav-block">
+                        <a class="nav-link active" href="#"> Wiadomości </a>
+                    </li>
+                    <li class="nav-item ms-3 me-2 d-none dis-nav-block">
+                        <a class="nav-link active" href="#"> Ogłoszenia </a>
+                    </li>
+                    <li class="nav-item ms-3 me-2 d-none dis-nav-block">
+                        <a class="nav-link active" href="#"> Lista użytkowników </a>
+                    </li>
+                    <li class="nav-item ms-3 me-2 dropdown dis-nav-none">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" href="#">
+                            Więcej
+                        </a>
+
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#"> wiadomości </a>
+                            <a class="dropdown-item" href="#"> ogłoszenia </a>
+                            <a class="dropdown-item" href="#"> lista użytkowników </a>
+                        </div>
+
+                    </li>
+                    <li class="nav-item search ms-3 me-5">
+                        <input class="mt-1" type="text" name="search" id="search" placeholder="szukaj">
+                        <button type="submit"> <i class="icon-search"></i> </button>
+                    </li>
+
+                    <li class="nav-item ms-3 me-2">
+                        <a class="nav-link" href="#"> zaloguj </a>
+                    </li>
+                    <li class="nav-item ms-3 me-3">
+                        <a class="nav-link" href="#"> zarejestruj </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="hwrap">
+            <!---->
+            <div class="hmove">
+
+                <div class="hitem">
+                    <a href="#">
+                        <span class="hwtext"> Dziwny czarny kształt na ciężarówce. Nagranie z zamkniętego ośrodka
+                            badawczego na pustyni [TAKA CIEKAWOSTKA] - Wiadomosci Gazeta.pl </span>
+                    </a>
+                </div>
+
+                <div class="hitem">
+                    <a href="#">
+                        <span class="hwtext"> Formuła 1. Lewis Hamilton wygrał Grand Prix Rosji - Interia </span>
+                    </a>
+                </div>
+
+                <div class="hitem">
+                    <a href="#">
+                        <span class="hwtext"> \"Kolacja Dworczyka\". Wyciekła faktura za ponad 4 tys. zł. PiS:
+                            \"Opłaciliśmy ją jak uczciwa partia\" - Wałbrzych.Wyborcza.pl </span>
+                    </a>
+                </div>
+
+                <div class="hitem">
+                    <a href="#">
+                        <span class="hwtext"> Wybory w Niemczech. Wszyscy zobaczyli na kogo zagłosował Armin Laschet -
+                            Interia </span>
+                    </a>
+                </div>
+
+                <div class="hitem">
+                    <a href="#">
+                        <span class="hwtext"> Czterej pancerni i pies. Historia prawdziwej załogi czołgu \"Rudy\" 102 -
+                            Wiadomości - Onet </span>
+                    </a>
+                </div>
+            </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mt-1 mb-1">
+
+                        <div class="slider">
+
+                            <div class="slider_items"> <a href="#">
+                                    <img class="slider-img img-fluid img-fluid"
+                                        src="https://v.wpimg.pl/MjAyMTA5YgsgGztnbk5vHmNDbz0oF2FINFt3dm4Ef1pxAX17Nxs6GigUKnoxWWInKzg0GRV0eDMmCioTO0EjCCpMOxwsewkIO0kiEnNzBCQHDX4wLAEODhdNeAAZWSEILTQmFihkASECKDgTOFoUJAASPh07cC86ECM4EwUFdAgqN3UGEmAcOigoOQIFZwsgAyg7GRJgLA9wSDQTL0UjDxABKhc4ew8mCRV8FRJSAggDHj0OCWQUDBdNJwAJWjogcCA7EAJgKQg4EnB2PA=="
+                                        alt="news-img">
+                                    <span>
+                                        <p class="slider-img-text"> Dorota Szelągowska świętuje 41. urodziny STARYMI
+                                            ZDJĘCIAMI i wyznaje: \"Uważałam się za jeden z najmniej atrakcyjnych
+                                            okazów\" (FOTO) - Pudelek </p>
+                                    </span>
+                                </a>
+                            </div>
+
+                            <div class="slider_items"> <a href="#">
+                                    <img class="slider-img img-fluid"
+                                        src="https://ocdn.eu/pulscms-transforms/1/caRk9kpTURBXy9lYWMwMDdmNWUyNjM1YTcyMGM3MTMzMDYwZjJiMDVkZS5qcGeTlQMAzLTNFoDNDKiTCaY2MWI0NmUGkwXNBLDNAnaBoTAB/radoslaw-fogiel.jpg"
+                                        alt="news-img">
+                                    <span>
+                                        <p class="slider-img-text"> Radosław Fogiel do Donalda Tuska: \"teściowa zaraz
+                                            zarekwiruje telefon\" - Wiadomości - Onet </p>
+                                    </span>
+                                </a>
+                            </div>
+
+                            <div class="slider_items"> <a href="#"></a>
+                                <img class="slider-img img-fluid"
+                                    src="https://media.wplm.pl/pictures/2021/09/26/1200/760/da5afc3f26e340828f3c59738f8ea27c.jpeg"
+                                    alt="news-img">
+                                <span>
+                                    <p class="slider-img-text"> Premier: Tusk został okiwany przez przestępców
+                                        podatkowych - wPolityce.pl </p>
+                                </span>
+                                </a>
+                            </div>
+
+                            <div class="slider_items"> <a href="#">
+                                    <img class="slider-img img-fluid"
+                                        src="https://ocdn.eu/pulscms-transforms/1/lfvk9kpTURBXy8zYjQ3NTkwZjE4YmVmNWUxMTYxZGZlMzM4YjQ5NmZlMi5qcGeTlQMBAM0PkM0IwpMJpjRhMDNlMwaTBc0EsM0CdoGhMAE/yared-shegumo-na-mecie-43-maratonu-warszawskiego.jpg"
+                                        alt="news-img">
+                                    <span>
+                                        <p class="slider-img-text"> 43. Maraton Warszawski pod dyktando Polaków. Wygrali
+                                            Yared Shegumo i Monika Andrzejczak - Przegląd Sportowy </p>
+                                    </span>
+                                </a>
+                            </div>
+
+                            <div class="slider_items"> <a href="#">
+                                    <img class="slider-img img-fluid"
+                                        src="https://bi.im-g.pl/im/c0/54/1a/z27610048IER,Pierscien-Einsteina-GAL-CLUS-022058s.jpg"
+                                        alt="news-img">
+                                    <span>
+                                        <p class="slider-img-text"> Teleskop Hubble'a dał nam naoczny dowód na
+                                            prawdziwość teorii Einsteina. Teraz wykonano pomiary - Gazeta.pl </p>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <h1 class="mt-5"> Wiadomości </h1>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-4 mt-1 mb-1">
+                        <a href="#">
+                            <div class="article-box">
+                                <img class="article-box-img"
+                                    src="https://bi.im-g.pl/im/89/56/1a/z27616905IER,Zdjecie-ilustracyjne.jpg" alt="">
+                                <span>
+                                    <p class="article-box-text"> Ponad 15 tys. zgonów na SOR-ach w ubiegłym roku. \"Tak
+                                        w praktyce wygląda reforma ochrony zdrowia\" - Wiadomosci Gazeta.pl </p>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mt-1 mb-1">
+                        <a href="#">
+                            <div class="article-box">
+                                <img class="article-box-img"
+                                    src="https://ipla.pluscdn.pl/dituel/cp/s8/s8hh5wxaue67qf9ur64et3hxswppc4pg.jpg"
+                                    alt="">
+                                <span>
+                                    <p class="article-box-text"> Wybrano nowy parlament Islandii. Zasiądzie w nim więcej
+                                        kobiet niż mężczyzn - polsatnews.pl </p>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mt-1 mb-1">
+                        <a href="#">
+                            <div class="article-box">
+                                <img class="article-box-img" src="https://bi.im-g.pl/im/1e/df/19/z27128350IER.jpg"
+                                    alt="">
+                                <span>
+                                    <p class="article-box-text"> Jakub Wolny odleciał! Polska z dodatkowym miejscem w
+                                        zawodach Pucharu Świata - Sport.pl </p>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mt-1 mb-1">
+                        <a href="#">
+                            <div class="article-box">
+                                <img class="article-box-img"
+                                    src="https://bi.im-g.pl/im/d8/56/1a/z27616728IER,Zdjecie-ilustracyjne.jpg" alt="">
+                                <span>
+                                    <p class="article-box-text"> Żelechlinek: 21-latka zaginęła podczas wesela. Ciało
+                                        kobiety na ranem znaleziono w stawie - Wiadomosci Gazeta.pl </p>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mt-1 mb-1">
+                        <a href="#">
+                            <div class="article-box">
+                                <img class="article-box-img"
+                                    src="https://v.wpimg.pl/ODQ1Njc4YCUwUzhZTE9tMHMLbAMKFmNmJBN0SEx7YHZhAX4SUgd8d35XJwYGRio0Ph8pGBZELjMhHz4GTFU_LX5Hf0UHXTw0PVA3RQZZLSE1Hn5aUgx-dmVVYwhUAippZQN8X04MfXNpHHdbV1AtJWAGLA4FUG05"
+                                    alt="">
+                                <span>
+                                    <p class="article-box-text"> Nowy sondaż dla WP. PiS nieznacznie traci - WP
+                                        Wiadomości </p>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mt-1 mb-1">
+                        <a href="#">
+                            <div class="article-box">
+                                <img class="article-box-img" src="https://i.iplsc.com/-/000D7HNK4XCYVGMS-C411.jpg"
+                                    alt="">
+                                <span>
+                                    <p class="article-box-text"> Spór o Turów. Morawiecki twierdzi, że Czesi kierują się
+                                        \"logiką wyborczą\" - RMF 24 </p>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <h1 class="mt-5"> Ogłoszenia </h1>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3 mt-1 mb-1">
+                        <div class="info-box">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mt-1 mb-1">
+                        <div class="info-box">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mt-1 mb-1">
+                        <div class="info-box">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mt-1 mb-1">
+                        <div class="info-box">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mt-1 mb-1">
+                        <div class="info-box">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mt-1 mb-1">
+                        <div class="info-box">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mt-1 mb-1">
+                        <div class="info-box">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mt-1 mb-1">
+                        <div class="info-box">
+                            <span></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted mt-5">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="#" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="#" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i> NEWS
+                        </h6>
+                        <p>
+                            ZAJEBISTY OPIS ZNAJDUJE SIĘ WŁAŚNIE TUTAJ. <br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo possimus quidem suscipit,
+                            architecto nihil pariatur, velit aperiam modi ratione iste animi in.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Kategorie
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">BIZNES</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">ZABAWA</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">TECHNOLOGIA</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">SPORT</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            UŻYTECZNE LINKI
+                        </h6>
+                        <p>
+                            <a href="https://www.freepik.com" class="text-reset">Freepik</a>
+                        </p>
+                        <p>
+                            <a href="https://newsapi.org/" class="text-reset">NEWS API</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">COŚ TAM</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            KONTAKT
+                        </h6>
+                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="#">NEWS</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js">
+    </script>
+
+    <script src="./scripts/news.js"></script>
+
+    <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+
+
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
